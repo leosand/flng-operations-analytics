@@ -1,0 +1,15 @@
+﻿version: '3.8'
+
+services:
+ flng-app:
+   build: .
+   container_name: flng-analytics
+   ports:
+     - "8501:8501"
+   volumes:
+     - ./config:/app/config
+     - ./data:/app/data
+     - ./logs:/app/logs
+   environment:
+     - TZ=Asia/Tokyo
+   restart: unless-stopped

@@ -1,0 +1,12 @@
+﻿# API Keys Configuration Example
+# Copy this file to api_keys.yml and fill with your actual keys
+
+copernicus:
+ username: "your_username_here"
+ password: "your_password_here"
+
+stormglass:
+ api_key: "your_api_key_here"
+
+open_meteo:
+ base_url: "https://marine-api.open-meteo.com/v1/marine"

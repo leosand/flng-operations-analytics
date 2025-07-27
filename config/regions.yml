@@ -1,0 +1,34 @@
+﻿# Geographic Regions Configuration
+regions:
+ tokyo_bay:
+   name: "Tokyo Bay"
+   coordinates:
+     center: [35.5, 139.8]
+     boundary_box:
+       north: 35.7
+       south: 35.3
+       east: 140.0
+       west: 139.6
+   protection_level: "protected"
+   
+ osaka_bay:
+   name: "Osaka Bay"
+   coordinates:
+     center: [34.5, 135.3]
+     boundary_box:
+       north: 34.7
+       south: 34.3
+       east: 135.5
+       west: 135.0
+   protection_level: "protected"
+   
+ nagoya:
+   name: "Nagoya"
+   coordinates:
+     center: [35.0, 136.9]
+     boundary_box:
+       north: 35.2
+       south: 34.8
+       east: 137.1
+       west: 136.7
+   protection_level: "protected"

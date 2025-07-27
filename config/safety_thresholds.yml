@@ -1,0 +1,25 @@
+﻿# FLNG Operations Safety Thresholds Configuration
+# Based on OCIMF MEG4 and industry best practices
+
+wind_speed:
+ normal: 15.0
+ caution: 20.0
+ critical: 25.0
+
+wave_height:
+ normal: 2.0
+ caution: 3.0
+ critical: 4.0
+
+wave_period:
+ min: 6.0
+ max: 15.0
+
+visibility:
+ min: 1000.0
+
+current_speed:
+ max: 2.0
+
+combined_sea_state:
+ max_wind_wave_ratio: 0.7
